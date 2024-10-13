@@ -70,7 +70,7 @@ header{
 }
 .principal-text{
     font-size: 5rem;
-    font-weight: 900;
+    font-weight: 800;
 }
 text{
     color: var(--secundary-color);
@@ -107,8 +107,8 @@ text{
     color: var(--white);
 }
 .transition-section h1{
-    font-size: 6.4rem;
-    width: 60%;
+    font-size: 3.5rem;
+    width: 50%;
     font-weight: 800;
 }
 .social-links{
