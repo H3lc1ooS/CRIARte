@@ -7,41 +7,52 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <link rel="stylesheet" href="./assets/css/global.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+        body {
+            font-family: "Inter", serif;
+        }
+    </style>
 </head>
 
-<body>
-    <header
-        class="header-container w-full h-32 bg-[#EC882F] flex items-center justify-between py-8 px-6 overflow-hidden">
+<body class="overflow-hidden bg-[#F9F6EE] font-sans">
+    <header class="header-container w-full h-24 flex items-center justify-between py-8 px-[7vw] overflow-hidden">
         <section class="logo-container w-[18%]">
             <img src="/assets/img/logo-no-background.png" class="w-full h-full" alt="Logótipo CRIARte">
         </section>
 
-        <nav class="navbar-container h-full w-[30%]">
-            <ul class="navlist flex justify-evenly w-full h-full items-center  text-white font-semibold text-2xl">
-                <li><a href="">Reservar</a></li>
+        <nav class="navbar-container h-full w-[35%]">
+            <ul class="navlist flex justify-between w-full h-full items-center  text-black font-semibold text-xl">
                 <li><a href="">Sobre</a></li>
-                <li><a href="">FAQ</a></li>
+                <li class="outline outline-2 outline-[#EC6F00] rounded-xl py-6 px-8 h-full flex items-center"><a href=""
+                        class="text-[#EC6F00]">RESERVE JÁ A SUA VAGA</a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="w-full h-[87.1vh] overflow-hidden overflow-y-auto bg-red-500">
+    <main class="w-full h-[87vh] overflow-y-auto">
+        <!-- Presentation Area -->
+        <section class="presentation w-full h-[87vh] px-24 pt-4 flex items-center justify-evenly">
+            <section class="text w-1/2 h-3/4 px-8 flex flex-col justify-evenly">
+                <h1 class="text-[3rem] font-bold leading-[4rem]">
+                    WHATEVER YOU DO IN YOUR LIFE PUT YOUR <spam class="text-[#EC6F00]">FAMILY FIRST</spam>
+                </h1>
 
-        <section class="home w-full h-[87.1vh] bg-blue-500 flex items-center py-6 overflow-hidden">
-            <section class="text-container w-[50%]">
-                <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta omnis natus numquam delectus
-                    mollitia consectetur beatae deserunt officiis, nihil magni. Vero tenetur, veritatis hic soluta
-                    excepturi cumque iste magni nostrum.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum vel aperiam voluptatem molestias quo
+                    sequi ab et architecto necessitatibus impedit totam delectus, ducimus, dolorum cumque! Atque ullam
+                    aliquid veniam cumque.Text</p>
+
+                <section class="btn w-2/5 h-14 bg-[#ECB200] flex items-center justify-center rounded-xl">
+                    <a href="" class="text-[14px] font-bold text-white">RESERVE JÁ A SUA VAGA</a>
+                </section>
             </section>
 
-            <section class="photos-container h-[50%] aspect-square overflow-hidden rounded-[50%]">
-                <img src="/assets/img/mirian/main.JPEG" alt="Mirian Alvarenga" class="w-full h-full">
+            <section class="picture w-1/2 h-3/4 overflow-hidden">
+                <img src="/assets/img/main-picture.svg" alt="" class="w-full h-full">
             </section>
         </section>
-
-        <section class="about w-full h-[87.1vh] bg-purple-500"></section>
-
-        <section class="faq w-full h-[87.1vh] bg-pink-500"></section>
     </main>
 </body>
 
