@@ -1,0 +1,58 @@
+:root{
+    --primary-color: #ECB200;
+    --secundary-color: #EC6F00;
+    --bone-white: #F9F6EE;
+    --white: #FFFFFF;
+    --black: #000000;
+
+    --button-pad: 1.2rem 2rem;
+}
+
+.relative{
+    position: relative;
+}
+
+.content{
+    padding: 6rem 13rem;
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.f-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.a-center{
+    align-items: center;
+}
+
+.j-between{
+    justify-content: space-between;
+}
+
+.j-evenly{
+    justify-content: space-evenly;
+}
+
+.j-center{
+    justify-content: center;
+}
+
+.j-around{
+    justify-content: space-around;
+}
+.t-center{
+    text-align: center;
+}

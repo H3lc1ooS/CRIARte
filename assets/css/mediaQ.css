@@ -1,0 +1,133 @@
+
+@media screen and (max-width: 768px) {
+    .hide-mobile {
+        display: none;
+        overflow: hidden;
+    }
+    
+    header{
+        padding: 3rem 2rem;
+    }
+    .navlist a{
+        font-size: 1.2rem;
+    }
+    
+    .content{
+        padding: 3rem 3rem;
+        height: auto;
+    }
+
+    .logo-container{
+        width: 20%;
+    }
+    .logo-container img{
+        width: 10.8rem;
+    }
+
+    .hero-section{
+        flex-direction: column-reverse;
+        height: 90rem;
+        padding: 10rem 3rem;
+    }
+    
+    .hero-text-section{
+        width: 100%;
+        gap: 1rem;
+        height: 50%;
+    }
+    .principal-text{
+        font-size: 4rem;
+    }
+    .hero-text-section p{
+        font-size: 1.2rem;
+    }
+    
+    .hero-images-section{
+        width: 100%;
+        height: 50%;
+    }
+    .hero-images-section .dots-hero{
+        width: 20rem;
+    }
+    .hero-images-section .miriam-hero{
+        width: 35rem;
+    }
+
+    .transition-section{
+        height: 40vh;
+        padding: 5rem 3rem;
+        flex-direction: column;
+        align-items: baseline;
+        gap: 2rem;
+    }
+    .transition-section h1{
+        font-size: 4rem;
+        width: 100%;
+        font-weight: 800;
+    }
+    .social-links{
+        background: var(--white);
+        padding: 2rem 3rem;
+        border-radius: 1rem;
+    }
+    .social-links i{
+        font-size: 2rem;
+    }
+
+    .question{
+        font-size: 3rem;
+    }
+    .event-text p, .motivo p{
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+    .event-text, .motivo{
+        width: 100%;
+    }
+    .points-cards-area{
+        padding-top: 3rem;
+        font-size: 1.4rem;
+        flex-direction: column;
+    }
+    .points-cards-area section{
+        flex-direction: row;
+        align-items: baseline;
+        padding-bottom: 2rem;
+        width: 100%;
+        gap: 1rem;
+    }
+    .points-cards-area .icon{
+        width: 2rem;
+    }
+
+    .motivo-section{
+        padding-bottom: 10rem;
+        flex-direction: column;
+    }
+    .motivo-image .miriam-motivo{
+        width: 90%;
+        position: initial;
+    }
+
+    .cta-image{
+        width: 25rem;
+    }
+    .cta h1{
+        font-size: 4rem;
+    }
+    .cta p{
+        font-size: 1.2rem;
+        width: 60%;
+    }
+
+    .cta-button{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .hide-desktop {
+        display: none;
+        overflow: hidden;
+    }
+}
