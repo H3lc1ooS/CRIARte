@@ -1,0 +1,230 @@
+*, ::before, ::after, body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 60.3%;
+}
+
+body{
+    background-color: var(--bone-white);
+    font-family: "Inter", sans-serif;
+}
+
+header{
+    background-color: var(--bone-white);
+    padding: 3rem 8rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.logo-container{
+    width: 20%;
+}
+.logo-container img{
+    width: 20.6rem;
+}
+
+.navlist{
+    gap: 4rem;
+}
+.navlist a{
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.scrolled{
+    background: none;
+    transition: 0.3s;
+}
+.scrolled a{
+    color: var(--white);
+}
+.scrolled img{
+    visibility: hidden;
+}
+
+/*HERO SECTION */
+.hero-section{
+    padding: 13rem 13rem;
+    height: 98vh;
+
+}
+.hero-text-section{
+    width: 40%;
+    gap: 1.8rem;
+}
+.principal-text{
+    font-size: 6.4rem;
+    font-weight: 900;
+}
+text{
+    color: var(--secundary-color);
+}
+.hero-text-section p{
+    font-size: 1.8rem;
+}
+.hero-text-section .button{
+    font-size: 1.4rem;
+    font-weight: 700;
+    width: 20rem;
+}
+.hero-images-section{
+    position: relative;
+    width: 40%;
+}
+.hero-images-section .dots-hero{
+    width: 35rem;
+    position: absolute;
+    z-index: 100;
+}
+.hero-images-section .miriam-hero{
+    position: absolute;
+    z-index: 999;
+}
+
+/*TRANSITION SECTION */
+
+.transition-section{
+    height: 50vh;
+    background-image: url(../img/CRIARTE11.png);
+    background-size: cover;
+    padding: 5rem 13rem;
+    color: var(--white);
+}
+.transition-section h1{
+    font-size: 6.4rem;
+    width: 60%;
+    font-weight: 800;
+}
+.social-links{
+    background: var(--white);
+    padding: 3rem;
+    border-radius: 3rem;
+    gap: 2rem;
+}
+.social-links i{
+    font-size: 2rem;
+    color: var(--secundary-color);
+}
+
+/*SOBREE*/
+.event-section{
+    overflow: hidden;
+}
+.event-text, .motivo{
+    width: 50%;
+    gap: 3rem;
+}
+.event-text p, .motivo p{
+    font-size: 2.4rem;
+}
+.event-image{
+    width: 40%;
+    padding: 5rem;
+}
+.event-image img{
+    width: 40rem;
+}
+.points-cards-area{
+    padding-top: 10rem;
+    font-size: 2rem;
+}
+.points-cards-area section{
+    padding-right: 3rem;
+    width: 40rem;
+}
+.points-cards-area .icon{
+    width: 3.2rem;
+    margin-bottom: 1rem;
+}
+.event-dots{
+    width: 35rem;
+    position: absolute;
+    z-index: 100;
+    right: -25rem;
+    bottom: 30%;
+}
+
+.motivo-section{
+    padding-bottom: 10rem;
+}
+.motivo-image .miriam-motivo{
+    width: 74rem;
+    position: absolute;
+    z-index: 110;
+}
+.motivo-dots{
+    width: 35rem;
+    position: absolute;
+    z-index: 100;
+    bottom: 4rem;
+    left: 50rem;
+}
+
+.cta{
+    height: 100vh;
+    background-color: var(--primary-color);
+    overflow: hidden;
+    color: var(--white);
+    gap: 1.3rem;
+}
+.cta-image{
+    width: 50rem;
+}
+
+.cta h1{
+    font-size: 6.4rem;
+}
+.cta p{
+    font-size: 2rem;
+    width: 72rem;
+}
+.cta-dot1{
+    width: 35rem;
+    position: absolute;
+    z-index: 100;
+    bottom: 40%;
+    right: -20rem;
+}
+.cta-dot2{
+    width: 35rem;
+    position: absolute;
+    z-index: 100;
+    bottom: 0;
+    left: -25rem;
+}
+
+footer{
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+.supa-animated {
+    font-family: "Montserrat", sans-serif;
+    animation: changeColor 6s linear infinite;
+    transition: all .1s ease-in-out;
+}
+
+@keyframes changeColor {
+
+    0%,
+    100% {
+        color: #2444FF;
+    }
+
+    33% {
+        color: #24C4FF;
+    }
+
+    66% {
+       color: #040053;
+    }
+}

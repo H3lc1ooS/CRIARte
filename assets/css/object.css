@@ -1,0 +1,39 @@
+.button{
+    border-radius: 1.2rem;
+    padding: var(--button-pad);
+    background: var(--secundary-color);
+    color: var(--white);
+}
+.button:hover{
+    background: var(--secundary-color);
+    color: var(--white);
+    transition: 0.3s;
+}
+.button.outline{
+    background: none;
+    border: var(--secundary-color) solid 0.2rem;
+    color: var(--secundary-color);
+}
+.button.outline:hover{
+    background: var(--secundary-color);
+    color: var(--white);
+    transition: 0.3s;
+}
+
+.question{
+    color: var(--secundary-color);
+    font-size: 4rem;
+    font-weight: 800;
+}
+.scrolled .button.outline{
+    border: var(--white) solid 0.2rem;
+    color: var(--white);
+}
+.cta-button{
+    color: var(--white);
+    font-size: 3.6rem;
+    background: var(--secundary-color);
+    font-weight: 800;
+    border-radius: 1rem;
+    padding: var(--button-pad);
+}
