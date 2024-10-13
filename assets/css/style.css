@@ -51,18 +51,25 @@ header{
     visibility: hidden;
 }
 
+.main-container{
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
 /*HERO SECTION */
 .hero-section{
     padding: 13rem 13rem;
-    height: 98vh;
-
+    height: 100vh;
+    width: 100%;
 }
 .hero-text-section{
     width: 40%;
+    height: 100%;
     gap: 1.8rem;
 }
 .principal-text{
-    font-size: 6.4rem;
+    font-size: 5rem;
     font-weight: 900;
 }
 text{
@@ -106,12 +113,13 @@ text{
 }
 .social-links{
     background: var(--white);
-    padding: 3rem;
+    padding: 5rem;
     border-radius: 3rem;
     gap: 2rem;
+    width: 40%;
 }
 .social-links i{
-    font-size: 2rem;
+    font-size: 4rem;
     color: var(--secundary-color);
 }
 
@@ -123,6 +131,10 @@ text{
     width: 50%;
     gap: 3rem;
 }
+.motivos-section{
+    height: 80%;
+}
+
 .event-text p, .motivo p{
     font-size: 2.4rem;
 }
@@ -156,17 +168,19 @@ text{
 .motivo-section{
     padding-bottom: 10rem;
 }
+
 .motivo-image .miriam-motivo{
     width: 74rem;
     position: absolute;
     z-index: 110;
 }
+
 .motivo-dots{
     width: 35rem;
     position: absolute;
     z-index: 100;
     bottom: 4rem;
-    left: 50rem;
+    left: 46rem;
 }
 
 .cta{
