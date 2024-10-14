@@ -67,6 +67,7 @@ header{
     width: 40%;
     height: 100%;
     gap: 1.8rem;
+    justify-content: center;
 }
 .principal-text{
     font-size: 5rem;
@@ -86,6 +87,8 @@ text{
 .hero-images-section{
     position: relative;
     width: 40%;
+    display: flex;
+    align-items: center;
 }
 .hero-images-section .dots-hero{
     width: 35rem;
@@ -133,6 +136,7 @@ text{
 }
 .motivos-section{
     height: 80%;
+    gap:3rem
 }
 
 .event-text p, .motivo p{
